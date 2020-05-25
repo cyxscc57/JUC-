@@ -10,7 +10,7 @@ import java.util.concurrent.*;
         java.util.concurrent.Executor:负责线程的使用与调度的根接口
           |--ExecutorService子接口：线程池的主要接口
             |--ThreadPoolExecutor 实现类
-                |--ScheduledExecutorService子接口：负责线程的嗲用
+                |--ScheduledExecutorService子接口：负责线程的调用
                     |--ScheduledThreadPoolExecutor:继承了ThreadPoolExecutor,实现了ScheduledExecutorService
     三、工具类：Executors
  ExecutorService   newFixedThreadPool():创建固定大小的线程池
